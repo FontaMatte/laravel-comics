@@ -1,12 +1,19 @@
-{{-- @extends('layout.main')
+@extends('layouts.app')
 
-@section('page_title')
-{{ $title }}
-@endsection --}}
-<img src="{{ Vite::asset('resources/img/adv.jpg') }}" alt="">
+{{-- SECTION TITLE --}}
+@section('page_title') DC Comics @endsection 
 
-{{-- @section('content') --}}
+{{-- SECTION MAIN --}}
+@section('content')
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            
+        </div>
+    </div>
+</div>
 
 
 
-{{-- @endsection --}}
+@endsection
