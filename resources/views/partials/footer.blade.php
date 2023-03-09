@@ -55,7 +55,22 @@
             </h3>
             <ul>
               <li v-for="item in listItems1">
-                {{-- <a href="#">{{ item }}</a> --}}
+                <a href="#">Characters</a>
+              </li>
+              <li v-for="item in listItems1">
+                <a href="#">Comics</a>
+              </li>
+              <li v-for="item in listItems1">
+                <a href="#">Movies</a>
+              </li>
+              <li v-for="item in listItems1">
+                <a href="#">Games</a>
+              </li>
+              <li v-for="item in listItems1">
+                <a href="#">Videos</a>
+              </li>
+              <li v-for="item in listItems1">
+                <a href="#">News</a>
               </li>
             </ul>
             <h3>
@@ -63,7 +78,10 @@
             </h3>
             <ul>
               <li v-for="item in listItems2">
-                {{-- <a href="#">{{ item }}</a> --}}
+                <a href="#">Shop DC</a>
+              </li>
+              <li v-for="item in listItems2">
+                <a href="#">Shop DC collectibles</a>
               </li>
             </ul>
           </div>
@@ -74,7 +92,34 @@
             </h3>
             <ul>
               <li v-for="item in listItems3">
-                {{-- <a href="#">{{ item }}</a> --}}
+                <a href="#">Terms Of Use</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Privacy policy (new)</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Ad Choises</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Advertising</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">jobs</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Subscription</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Talent Workshop</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">CPSC Certificates</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Ratings</a>
+              </li>
+              <li v-for="item in listItems3">
+                <a href="#">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -85,12 +130,33 @@
             </h3>
             <ul>
               <li v-for="item in listItems4">
-                {{-- <a href="#">{{ item }}</a> --}}
+                <a href="#">DC</a>
+              </li>
+              <li v-for="item in listItems4">
+                <a href="#">MAD Magazine</a>
+              </li>
+              <li v-for="item in listItems4">
+                <a href="#">DC Kids</a>
+              </li>
+              <li v-for="item in listItems4">
+                <a href="#">DC Universe</a>
+              </li>
+              <li v-for="item in listItems4">
+                <a href="#">DC Power Visa</a>
               </li>
             </ul>
           </div>
         </div>
+        {{-- <div class="container">
+            <p>
+                All site content TM and 2020 DC Entertaiment, unless otherwise
+                <a href="#">noted here</a>.
+                All rights reserved.
+                <a href="#">Cookies Setting</a>
+            </p>
+        </div> --}}
       </div>
+      
       <div class="footer-bottom">
         <div class="container">
           <div class="call-to-action">
@@ -105,7 +171,27 @@
             <ul>
               <li v-for="icon in socialIcons">
                 <a href="#">
-                  <img :src="getImagePath(`./../assets/img/${ icon }`)" alt="">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                </a>
+              </li>
+              <li v-for="icon in socialIcons">
+                <a href="#">
+                    <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
+                </a>
+              </li>
+              <li v-for="icon in socialIcons">
+                <a href="#">
+                    <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
+                </a>
+              </li>
+              <li v-for="icon in socialIcons">
+                <a href="#">
+                    <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
+                </a>
+              </li>
+              <li v-for="icon in socialIcons">
+                <a href="#">
+                    <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
                 </a>
               </li>
             </ul>
